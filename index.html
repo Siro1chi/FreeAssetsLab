@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Free Assets Catalog — спрайты, модели, музыка, проекты</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts (опционально, для акцентов) -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <!-- Шапка -->
+        <header class="header">
+            <h1>🎮 Free Assets</h1>
+            <p>Спрайты, 3D-модели, музыка и готовые проекты — бесплатно</p>
+        </header>
+
+        <!-- Фильтры -->
+        <div class="filters">
+            <button class="filter-btn active" data-category="all">Все</button>
+            <button class="filter-btn" data-category="sprites">🎨 Спрайты</button>
+            <button class="filter-btn" data-category="models">🗿 Модели</button>
+            <button class="filter-btn" data-category="music">🎵 Музыка</button>
+            <button class="filter-btn" data-category="projects">📦 Проекты</button>
+        </div>
+
+        <!-- Сетка карточек -->
+        <div class="assets-grid" id="assetsGrid">
+            <div class="loading">Загрузка ассетов...</div>
+        </div>
+    </div>
+
+    <!-- Модальное окно -->
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <div class="modal-body" id="modalBody">
+                <!-- Содержимое модалки будет вставлено сюда -->
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

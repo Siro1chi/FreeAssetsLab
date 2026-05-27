@@ -1,0 +1,38 @@
+[
+    {
+        "id": "knight_anim_sprites",
+        "name": "Рыцарь — анимация ходьбы и атаки",
+        "description": "Полный спрайт-лист рыцаря в латах. 8 направлений движения, 4 кадра ходьбы, 6 кадров атаки мечом. Размер спрайтов 64x64 пикселя. PNG с прозрачностью. Подходит для RPG и экшенов.",
+        "category": "sprites",
+        "previewImage": "images/sprite-preview.svg",
+        "fileUrl": "https://github.com/example/free-assets/releases/download/v1/knight_sprites.zip",
+        "fileSize": "1.8 MB"
+    },
+    {
+        "id": "fantasy_weapons_pack",
+        "name": "Фэнтези оружие — 20 моделей",
+        "description": "Набор 3D-моделей оружия: мечи, топоры, луки, посохи. Формат OBJ + текстуры 512x512. Подходит для Unity, Godot, Blender. Лицензия CC0.",
+        "category": "models",
+        "previewImage": "images/models-preview.svg",
+        "fileUrl": "https://github.com/example/free-assets/releases/download/v1/weapons_pack.zip",
+        "fileSize": "4.2 MB"
+    },
+    {
+        "id": "dungeon_loop_music",
+        "name": "Dungeon Ambience — цикличная музыка",
+        "description": "Мрачная фоновая музыка для подземелий. Формат OGG, длительность 2:30, цикл без швов. Подходит для RPG, рогаликов, хорроров.",
+        "category": "music",
+        "previewImage": "images/music-preview.svg",
+        "fileUrl": "https://github.com/example/free-assets/releases/download/v1/dungeon_loop.ogg",
+        "fileSize": "2.1 MB"
+    },
+    {
+        "id": "platformer_starter_project",
+        "name": "Платформер на Godot — стартовый проект",
+        "description": "Готовый проект для Godot 4.2: персонаж с прыжками и двойным прыжком, враг, монетки, уровень из тайлов. Исходники в архиве. Просто открывай и модифицируй.",
+        "category": "projects",
+        "previewImage": "images/project-preview.svg",
+        "fileUrl": "https://github.com/example/free-assets/releases/download/v1/platformer_starter.zip",
+        "fileSize": "5.7 MB"
+    }
+]
